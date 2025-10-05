@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple Blog — Bootstrap 5</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">MyBlog</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+              aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Categories</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER / HERO -->
+  <header class="bg-light py-5 mb-4">
+    <div class="container">
+      <h1 class="display-5 mb-2">Welcome to MyBlog</h1>
+      <p class="lead text-muted">A simple responsive blog layout built with Bootstrap 5. Clean, fast and mobile-first.</p>
+    </div>
+  </header>
+
+  <!-- MAIN: CARDS GRID -->
+  <main class="container mb-5">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+      <!-- Card 1 -->
+      <div class="col">
+        <article class="card h-100 shadow-sm">
+          <img src="https://picsum.photos/seed/pic1/800/500" class="card-img-top" alt="Nature image">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Exploring the Mountains</h5>
+            <p class="card-text text-muted">Exploring the mountains brings a sense of freedom and wonder — every trail unveils breathtaking views, crisp air, and the thrill of adventure in nature’s purest form.
+</p>
+            <div class="mt-auto">
+              <a href="#" class="btn btn-primary btn-sm">Read more</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col">
+        <article class="card h-100 shadow-sm">
+          <img src="https://picsum.photos/seed/pic2/800/500" class="card-img-top" alt="Cityscape image">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">City Nights: A Photo Story</h5>
+            <p class="card-text text-muted">Neon lights, quiet streets, and untold stories — the city comes alive after dark.
+A glimpse into the rhythm, mystery, and magic of urban nights.
+</p>
+            <div class="mt-auto">
+              <a href="#" class="btn btn-primary btn-sm">Read more</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col">
+        <article class="card h-100 shadow-sm">
+          <img src="https://homemaderecipes.com/wp-content/uploads/2025/08/classic-soup-recipes-thanksgiving-week.png" class="card-img-top" alt="Food image">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Best Homemade Recipes</h5>
+            <p class="card-text text-muted">Silky Butternut Squash Soup: A Hug in a Bowl 🥄
+This classic soup tastes like autumn in every spoonful. Its velvety texture, sweet earthy flavor, and golden hue make it a perfect starter or light meal. Best of all, it's as easy as pie (but even cozier).</p>
+            <div class="mt-auto">
+              <a href="#" class="btn btn-primary btn-sm">Read more</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col">
+        <article class="card h-100 shadow-sm">
+          <img src="https://picsum.photos/seed/pic4/800/500" class="card-img-top" alt="Travel image">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Weekend Getaways</h5>
+            <p class="card-text text-muted">Escape the routine with quick weekend trips! Discover nearby getaways perfect for relaxation, adventure, or a dose of nature—no long planning required. Pack light and make every weekend count!
+</p>
+            <div class="mt-auto">
+              <a href="#" class="btn btn-primary btn-sm">Read more</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col">
+        <article class="card h-100 shadow-sm">
+          <img src="https://talibmobile.com/wp-content/uploads/2025/02/2.webp" class="card-img-top" alt="Tech image">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Latest Tech Reviews</h5>
+            <p class="card-text text-muted">Vivo V60 5G — A camera-centric mid-ranger with a 6,500 mAh battery, triple 50 MP ZEISS cameras, Snapdragon 7 Gen 4 chipset, and IP68/IP69 water-dust sealing.
+</p>
+            <div class="mt-auto">
+              <a href="#" class="btn btn-primary btn-sm">Read more</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col">
+        <article class="card h-100 shadow-sm">
+          <img src="https://picsum.photos/seed/pic6/800/500" class="card-img-top" alt="Lifestyle image">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Healthy Living Tips</h5>
+            <p class="card-text text-muted">Healthy Daily Habit Tip:
+Stay hydrated, eat balanced meals, move your body, get enough sleep, take screen breaks, breathe deeply, and practice gratitude — small daily actions that build lasting wellness.
+.</p>
+            <div class="mt-auto">
+              <a href="#" class="btn btn-primary btn-sm">Read more</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between">
+      <div class="mb-3 mb-md-0">© <span id="year"></span> MyBlog</div>
+      <div>
+        <a href="#" class="text-white me-3" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="text-white me-3" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-white" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle JS (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
