@@ -17,3 +17,4 @@ This project demonstrates how to create a blog-style webpage with a **navbar, he
 - **Bootstrap Icons CDN**  
 - **VS Code** (or any code editor)  
 - **Browser** (for testing responsiveness)  
+[!Image Alt](https://github.com/TapasRanjanMahanta/Elevate-Labs_08/blob/main/Screenshot%202025-10-05%20100625.png?raw=true)
